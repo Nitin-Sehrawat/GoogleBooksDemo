@@ -20,7 +20,7 @@ Prerequisites
 Setup Instructions
 
 1. Clone the repository:
-    git clone https://
+    git clone https://github.com/Nitin-Sehrawat/GoogleBooksDemo
 
 2. Open the project in Eclipse:
     - Open Eclipse IDE.
@@ -59,4 +59,4 @@ Running the Tests
 
 Author
 
-- Nitin Sehrawat (git link)
+- Nitin Sehrawat (https://github.com/Nitin-Sehrawat/GoogleBooksDemo)
