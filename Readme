@@ -1,0 +1,62 @@
+Selenium Web Automation Project
+
+This project automates a scenario on Google Books using Selenium WebDriver and Java.
+
+Scenario
+
+1. Open a web browser and navigate to link "https://books.google.co.in/" i.e. Google Books.
+2. Search for the keyword "Software Testing".
+3. Filter by "Any Document = Books".
+4. Click on the 3rd search result.
+5. Take a screenshot of the book.
+
+Prerequisites
+
+- Java JDK
+- Eclipse IDE
+- Selenium WebDriver
+- ChromeDriver
+
+Setup Instructions
+
+1. Clone the repository:
+    git clone https://
+
+2. Open the project in Eclipse:
+    - Open Eclipse IDE.
+    - Go to 'File -> Open Projects from File System'.
+    - Select the cloned project directory.
+
+3. Add below mentioned dependencies in pom.xml which are required for this project:
+    <dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.18.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.9.0</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.15.1</version>
+		</dependency>
+
+
+Running the Tests
+
+1. Run the 'GoogleBookSearch_testng.xml' file:
+    - Right-click on the 'TestNG.xml' file in Eclipse.
+    - Select 'Run As -> TestNG Suite'.
+
+2. Check the output:
+    - The script will take a screenshot of the book and save it as 'book_screenshot.png' in the project directory's ScreenShots folder.
+
+Author
+
+- Nitin Sehrawat (git link)
